@@ -49,7 +49,7 @@ class Douban(Source):
 
     name = 'Douban Books'
     author = 'Li Fanxi, xcffl, jnozsc'
-    version = (3, 1, 0)
+    version = (3, 1, 1)
     minimum_calibre_version = (2, 80, 0)
 
     description = _(
@@ -65,7 +65,7 @@ class Douban(Source):
     supports_gzip_transfer_encoding = True
     cached_cover_url_is_reliable = True
 
-    DOUBAN_API_KEY = '0df993c66c0c636e29ecbb5344252a4a'
+    DOUBAN_API_KEY = '054022eaeae0b00e0fc068c0c0a2102a'
     DOUBAN_API_URL = 'https://api.douban.com/v2/book/search'
     DOUBAN_BOOK_URL = 'https://book.douban.com/subject/%s/'
 
